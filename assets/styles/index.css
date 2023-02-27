@@ -89,6 +89,12 @@ header {
   text-decoration: none;
 }
 
+/* -Hero- */
+
+.hero .container {
+  padding: 100px 0;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
