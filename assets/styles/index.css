@@ -95,6 +95,15 @@ header {
   padding: 100px 0;
 }
 
+.hero__title {
+  font-size: 52px;
+  line-height: 65px;
+}
+
+.hero__title--red {
+  color: #f95e5e;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
