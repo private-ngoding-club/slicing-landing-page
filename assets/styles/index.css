@@ -21,6 +21,18 @@ body {
   margin: 0 auto;
 }
 
+/* -Header- */
+
+.header__nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.header__nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
