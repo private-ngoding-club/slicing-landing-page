@@ -120,6 +120,10 @@ header {
   padding: 100px 0;
 }
 
+.hero--left {
+  max-width: 490px;
+}
+
 .hero__title {
   font-size: 52px;
   line-height: 65px;
