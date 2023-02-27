@@ -39,6 +39,14 @@ body {
   gap: 25px;
 }
 
+.icons {
+  display: block;
+  width: 20px;
+  height: 20px;
+  filter: invert(90%);
+  cursor: pointer;
+}
+
 /* -Header- */
 
 header {
