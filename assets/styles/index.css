@@ -171,6 +171,7 @@ header {
   justify-content: flex-end;
   flex-wrap: wrap;
   max-width: 48.125rem;
+  user-select: none;
 
   position: absolute;
   top: 4.9375rem;
@@ -179,6 +180,11 @@ header {
 
 .hero--right > div {
   display: flex;
+}
+
+.hero--right img {
+  height: 15.3125rem;
+  width: 100%;
 }
 
 /* -Hero Background- */
@@ -190,9 +196,15 @@ header {
   z-index: -1;
 }
 
+.hero__background img {
+  height: 53.875rem;
+  width: 100%;
+}
+
 .hero__background::before {
   content: "";
   background: url("../images/hero-background-gradient.png") no-repeat;
+  background-size: 100% 53.875rem;
   width: 100%;
   height: 100%;
   opacity: 0.9;
