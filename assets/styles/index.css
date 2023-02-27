@@ -145,15 +145,16 @@ header {
   gap: 11px;
   border: 1px solid #cacaca;
   border-radius: 8px;
+  width: 95%;
   margin-bottom: 30px;
   padding: 0 16px;
 }
 
 .hero__input input {
   border: none;
-  padding: 10px 0;
   height: 100%;
   width: 100%;
+  padding: 20px 0;
   font-family: inherit;
   font-size: 16px;
   outline: none;
