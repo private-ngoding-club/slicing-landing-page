@@ -116,8 +116,10 @@ header {
 
 /* -Hero- */
 
-.hero .container {
+.hero {
   padding: 100px 0;
+
+  position: relative;
 }
 
 .hero--left {
@@ -158,6 +160,23 @@ header {
   font-family: inherit;
   font-size: 16px;
   outline: none;
+}
+
+/* -Hero Right Side- */
+
+.hero--right {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  max-width: 770px;
+
+  position: absolute;
+  top: 79px;
+  right: 0;
+}
+
+.hero--right > div {
+  display: flex;
 }
 
 /* End of Fanfan */
