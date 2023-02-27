@@ -53,6 +53,27 @@ header {
   padding: 38px 0;
 }
 
+.header__title {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.header__title--gradient {
+  background: linear-gradient(
+    76.2deg,
+    rgba(249, 94, 94, 1) 50%,
+    rgba(205, 65, 65, 1) 100%
+  );
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+  font-weight: 700;
+}
+
 .header__nav {
   justify-content: space-between;
   width: 100%;
