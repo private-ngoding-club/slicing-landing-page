@@ -21,7 +21,16 @@ body {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 /* -Header- */
+
+header {
+  padding: 38px 0;
+}
 
 .header__nav ul li {
   list-style: none;
