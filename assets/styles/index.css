@@ -45,6 +45,11 @@ header {
   padding: 38px 0;
 }
 
+.header__nav {
+  justify-content: space-between;
+  width: 100%;
+}
+
 .header__nav ul li {
   list-style: none;
   cursor: pointer;
