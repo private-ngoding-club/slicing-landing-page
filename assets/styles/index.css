@@ -45,7 +45,6 @@ body {
   display: block;
   width: 20px;
   height: 20px;
-  filter: invert(90%);
   cursor: pointer;
 }
 
@@ -110,6 +109,10 @@ header {
 .header__nav a {
   color: inherit;
   text-decoration: none;
+}
+
+.header__nav--right {
+  color: white;
 }
 
 /* -Hero- */
