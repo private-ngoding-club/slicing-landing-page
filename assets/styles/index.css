@@ -104,6 +104,12 @@ header {
   color: #f95e5e;
 }
 
+.hero__text {
+  margin: 18px 0 26px 0;
+  font-size: 24px;
+  line-height: 30px;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
