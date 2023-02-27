@@ -22,8 +22,21 @@ body {
 }
 
 .flex {
+  border: 1px solid yellow;
   display: flex;
   align-items: center;
+}
+
+.flex--gap {
+  gap: 50px;
+}
+
+.flex--gap-title {
+  gap: 35px;
+}
+
+.flex--gap-icons {
+  gap: 25px;
 }
 
 /* -Header- */
