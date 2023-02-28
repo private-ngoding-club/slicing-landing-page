@@ -41,6 +41,27 @@ body {
   gap: 1.25rem;
 }
 
+.section__title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+
+  position: relative;
+}
+
+.section__title::before {
+  content: "";
+  background: #f05454;
+  width: 176px;
+  height: 17px;
+  margin-left: 0.5px;
+  opacity: 30%;
+
+  position: absolute;
+  bottom: -1.5px;
+  z-index: -1;
+}
+
 .icons {
   display: block;
   width: 1.25rem;
