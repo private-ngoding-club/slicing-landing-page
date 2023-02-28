@@ -240,6 +240,20 @@ header {
   margin-bottom: 42px;
 }
 
+.rasakan__video {
+  margin: 0 auto;
+}
+
+.video__row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.video__row--margin-bottom {
+  margin-bottom: 20px;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
