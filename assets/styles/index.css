@@ -260,6 +260,8 @@ header {
 }
 
 .rasakan__video-item {
+  cursor: pointer;
+
   position: relative;
 }
 
