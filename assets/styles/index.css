@@ -250,25 +250,25 @@ header {
   margin: 0 auto;
 }
 
-.video__row {
+.rasakan__video-row {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-.video__row--margin-bottom {
+.rasakan__video-row--margin-bottom {
   margin-bottom: 20px;
 }
 
-.video {
+.rasakan__video-item {
   position: relative;
 }
 
-.video img {
+.rasakan__video-item img {
   display: block;
 }
 
-.video::before {
+.rasakan__video-item::before {
   /* -Gray Overlay-*/
   content: "";
   background: #454545;
@@ -280,7 +280,7 @@ header {
   position: absolute;
 }
 
-.video::after {
+.rasakan__video-item::after {
   /* -Play Button- */
   content: "";
   background: url("../images/icons/play.svg") no-repeat;
