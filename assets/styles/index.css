@@ -236,6 +236,10 @@ header {
 
 /* -Rasakan Section- */
 
+.rasakan {
+  margin-bottom: 225px;
+}
+
 .rasakan__title {
   margin-bottom: 42px;
 }
