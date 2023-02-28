@@ -238,6 +238,8 @@ header {
 
 .rasakan {
   margin-bottom: 225px;
+
+  position: relative;
 }
 
 .rasakan__title {
@@ -290,6 +292,13 @@ header {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* -Rasakan Background- */
+
+.rasakan__background {
+  position: absolute;
+  top: 20px;
 }
 
 /* End of Fanfan */
