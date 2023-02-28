@@ -15,6 +15,7 @@ body {
 }
 
 .container {
+  border: 1px solid red;
   max-width: 77.5rem;
   width: 90%;
   margin: 0 auto;
@@ -231,6 +232,12 @@ header {
   opacity: 0.9;
 
   position: absolute;
+}
+
+/* -Rasakan Section- */
+
+.rasakan__title {
+  margin-bottom: 42px;
 }
 
 /* End of Fanfan */
