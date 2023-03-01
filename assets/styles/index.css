@@ -319,6 +319,16 @@ header {
   gap: 25px;
 }
 
+.daerah__buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 28px;
+  padding: 18px 24px;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
