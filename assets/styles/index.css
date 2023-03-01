@@ -233,7 +233,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 80px 100px;
+  margin: 80px 100px 0 100px;
 }
 
 .footer__title {
@@ -283,6 +283,7 @@ header {
   border-radius: 8px;
   margin-top: 12px;
   border: none;
+  margin-right: 2px;
 }
 
 .footer__input input::placeholder {
@@ -295,6 +296,29 @@ header {
   background: #aa3e3e;
   color: #fff;
   border: none;
+}
+
+.footer__language {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 63px 100px 24px 100px;
+}
+
+.footer__container__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 100px 30px;
+}
+
+.footer__copyright {
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer__language--bold {
+  font-weight: 700;
 }
 
 /* End of Doni */
