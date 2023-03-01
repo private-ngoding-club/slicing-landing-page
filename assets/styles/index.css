@@ -15,6 +15,7 @@ body {
 }
 
 .container {
+  border: 1px solid red;
   max-width: 77.5rem;
   width: 90%;
   margin: 0 auto;
@@ -300,6 +301,12 @@ header {
 .rasakan__background {
   position: absolute;
   top: 1.25rem;
+}
+
+/* -Daerah Section- */
+
+.daerah {
+  margin-bottom: 225px;
 }
 
 /* End of Fanfan */
