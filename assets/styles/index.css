@@ -316,7 +316,7 @@ header {
 .daerah__location {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 24px;
 }
 
 .daerah__item {
