@@ -326,6 +326,8 @@ header {
 
 .daerah__item img {
   display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .daerah__item::before {
