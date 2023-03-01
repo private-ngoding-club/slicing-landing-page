@@ -313,6 +313,12 @@ header {
   margin-bottom: 28px;
 }
 
+.daerah__location {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
