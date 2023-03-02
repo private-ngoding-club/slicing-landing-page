@@ -42,6 +42,10 @@ body {
   gap: 1.25rem;
 }
 
+.flex--gap-lestarikan-1 {
+  gap: 55px;
+}
+
 .section__title {
   font-size: 2.625rem;
   font-weight: 700;
@@ -391,6 +395,20 @@ header {
 
 .lestarikan-1 {
   margin-bottom: 142px;
+}
+
+.lestarikan-1 img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.lestarikan-1__left {
+  width: 30%;
+}
+
+.lestarikan-1__right {
+  width: 100%;
 }
 
 /* End of Fanfan */
