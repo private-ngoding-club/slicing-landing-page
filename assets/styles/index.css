@@ -436,7 +436,15 @@ header {
 }
 
 .lestarikan-1__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   width: 100%;
+}
+
+.lestarikan-1__right--row-2 {
+  display: flex;
+  gap: 20px;
 }
 
 /* End of Fanfan */
