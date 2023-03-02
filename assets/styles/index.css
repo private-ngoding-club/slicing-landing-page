@@ -448,6 +448,9 @@ header {
 }
 
 .lestarikan-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(
       0deg,
       rgba(69, 69, 69, 0.6),
