@@ -495,5 +495,143 @@ header {
 /* End of Ikrom */
 
 /* Start of Doni */
-/*  */
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  width: 100%;
+  height: 420px;
+  color: #fff;
+  background: linear-gradient(
+      159.87deg,
+      rgba(240, 84, 84, 1) 10%,
+      rgba(152, 50, 50, 0.7) 48%
+    ),
+    linear-gradient(110deg, rgba(240, 84, 84, 1) 53%, rgba(152, 50, 50, 0) 80%),
+    url("../images/bg-footer-1.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.footer__container__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px 100px 0 100px;
+}
+
+.footer__title {
+  font-size: 36px;
+}
+
+.footer__title--bold {
+  font-weight: 700;
+}
+
+.footer__desc {
+  font-size: 16px;
+  width: 221.31px;
+}
+
+.footer__desc--bold {
+  font-weight: 700;
+}
+
+.footer__nav ul li {
+  list-style-type: none;
+  font-size: 14px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.footer__nav__link a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer__76 img {
+  width: 100%;
+  max-height: 82px;
+  min-width: 150px;
+}
+
+.footer__subscribe {
+  width: 400px;
+}
+
+.footer__subscribe span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__input input {
+  width: 294px;
+  max-width: 300px;
+  min-width: 100px;
+  height: 54px;
+  border-radius: 8px;
+  margin-top: 12px;
+  border: none;
+  padding-left: 2px;
+  outline: none;
+  font-size: 12px;
+}
+
+.footer__input input::placeholder {
+  padding-left: 21px;
+  color: #cacaca;
+  font-family: "Quicksand", "FontAwesome";
+}
+
+.footer__input button {
+  padding: 18px 31px;
+  border-radius: 8px;
+  background: #aa3e3e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer__language {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 63px 100px 24px 100px;
+  cursor: pointer;
+}
+
+.footer__container__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 100px 30px;
+}
+
+.footer__copyright {
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer__copyright--bold {
+  font-weight: 700;
+}
+
+.footer__language--bold {
+  font-weight: 700;
+}
+
+.footer__social a {
+  padding-left: 16px;
+  font-size: 17px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__social--bold {
+  font-weight: 700;
+}
+
 /* End of Doni */
