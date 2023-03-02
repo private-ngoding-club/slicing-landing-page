@@ -447,6 +447,17 @@ header {
   gap: 20px;
 }
 
+.lestarikan-2 {
+  background: linear-gradient(
+      0deg,
+      rgba(69, 69, 69, 0.6),
+      rgba(69, 69, 69, 0.6)
+    ),
+    url("../images/lestarikan-background.png");
+  background-size: 100% 100%;
+  min-height: 541px;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
