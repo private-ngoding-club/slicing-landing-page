@@ -459,6 +459,8 @@ header {
   background-size: 100% 100%;
   min-height: 541px;
   text-align: center;
+
+  position: relative;
 }
 
 .lestarikan-2__title {
@@ -473,6 +475,16 @@ header {
   color: white;
   font-size: 18px;
   line-height: 22px;
+}
+
+/* -Lestarikan Background- */
+
+.lestarikan__background {
+  position: absolute;
+  bottom: 43%;
+  left: 0;
+
+  z-index: -1;
 }
 
 /* End of Fanfan */
