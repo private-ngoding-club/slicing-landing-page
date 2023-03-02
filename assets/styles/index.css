@@ -422,6 +422,19 @@ header {
   margin-bottom: 41px;
 }
 
+.lestarikan-1__buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  padding: 18px 24px;
+}
+
+.lestarikan-1__buttons img {
+  width: 1rem;
+  height: 0.875rem;
+}
+
 .lestarikan-1__right {
   width: 100%;
 }
