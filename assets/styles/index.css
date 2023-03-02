@@ -456,6 +456,21 @@ header {
     url("../images/lestarikan-background.png");
   background-size: 100% 100%;
   min-height: 541px;
+  text-align: center;
+}
+
+.lestarikan-2__title {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.lestarikan-2__text {
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 /* End of Fanfan */
