@@ -488,6 +488,85 @@ header {
   z-index: -1;
 }
 
+/* -Kata Mereka Section- */
+
+.kata-mereka {
+  margin-bottom: 10rem;
+
+  position: relative;
+}
+
+.kata-mereka img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.kata-mereka__title {
+  margin-bottom: 3.125rem;
+}
+
+.kata-mereka__review {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.kata-mereka__review-item {
+  display: flex;
+  gap: 1.125rem;
+  max-width: 25.375rem;
+}
+
+.kata-mereka__profile-picture {
+  align-self: center;
+}
+
+.review__name {
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.review__quote {
+  color: #a3a3a3;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.review__stars {
+  min-height: 1.5rem;
+
+  position: relative;
+}
+
+.review__stars::before {
+  content: "";
+  background: url("../images/icons/star.svg");
+  background-repeat: repeat no-repeat;
+  background-position: left center;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+}
+
+.review__stars--five::before {
+  width: calc(1.24063rem * 5);
+}
+
+/* -Kata Mereka Background- */
+
+.kata-mereka__background {
+  position: absolute;
+  bottom: 70%;
+  right: 0;
+
+  z-index: -1;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
