@@ -504,6 +504,12 @@ header {
   margin-bottom: 50px;
 }
 
+.kata-mereka__review {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
 .kata-mereka__review-item {
   display: flex;
   gap: 18px;
