@@ -492,6 +492,8 @@ header {
 
 .kata-mereka {
   margin-bottom: 160px;
+
+  position: relative;
 }
 
 .kata-mereka img {
@@ -553,6 +555,16 @@ header {
 
 .review__stars--five::before {
   width: calc(19.85px * 5);
+}
+
+/* -Kata Mereka Background- */
+
+.kata-mereka__background {
+  position: absolute;
+  bottom: 70%;
+  right: 0;
+
+  z-index: -1;
 }
 
 /* End of Fanfan */
