@@ -488,6 +488,12 @@ header {
   z-index: -1;
 }
 
+/* -Kata Mereka Section- */
+
+.kata-mereka {
+  margin-bottom: 160px;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
