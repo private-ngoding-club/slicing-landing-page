@@ -567,6 +567,67 @@ header {
   z-index: -1;
 }
 
+/* -Tahu Kah Section- */
+
+.tahu-kah {
+  margin-bottom: 3.4375rem;
+}
+
+.tahu-kah img {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin: -0.5rem 0;
+}
+
+.tahu-kah__title {
+  margin-bottom: 4.125rem;
+}
+
+.tahu-kah__blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tahu-kah__blog-item {
+  max-width: 23.375rem;
+}
+
+.tahu-kah-blog__thumbnail {
+  margin-bottom: 1.25rem;
+
+  position: relative;
+}
+
+.tahu-kah-blog__thumbnail::before,
+.tahu-kah-blog__thumbnail::after {
+  content: "";
+  height: 3.375rem;
+  width: 3.625rem;
+  cursor: pointer;
+
+  position: absolute;
+  top: 0.25rem;
+  right: 0.375rem;
+}
+
+.tahu-kah-blog__thumbnail::before {
+  background: white;
+  border-radius: 0 0.5rem;
+}
+
+.tahu-kah-blog__thumbnail::after {
+  background: url("../images/icons/wishlist.svg") no-repeat center;
+  filter: invert(51%) sepia(10%) saturate(6854%) hue-rotate(325deg)
+    brightness(101%) contrast(96%);
+}
+
+.tahu-kah-blog__title {
+  margin-bottom: 0.625rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 /* End of Fanfan */
 
 /* Start of Ikrom */
