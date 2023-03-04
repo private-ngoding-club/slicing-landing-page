@@ -584,6 +584,11 @@ header {
   margin-bottom: 66px;
 }
 
+.tahu-kah__blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .tahu-kah__blog-item {
   max-width: 374px;
 }
