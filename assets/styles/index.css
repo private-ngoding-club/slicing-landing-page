@@ -590,6 +590,31 @@ header {
 
 .tahu-kah-blog__thumbnail {
   margin-bottom: 20px;
+
+  position: relative;
+}
+
+.tahu-kah-blog__thumbnail::before,
+.tahu-kah-blog__thumbnail::after {
+  content: "";
+  height: 54px;
+  width: 58px;
+  cursor: pointer;
+
+  position: absolute;
+  top: 4px;
+  right: 6px;
+}
+
+.tahu-kah-blog__thumbnail::before {
+  background: white;
+  border-radius: 0 8px;
+}
+
+.tahu-kah-blog__thumbnail::after {
+  background: url("../images/icons/wishlist.svg") no-repeat center;
+  filter: invert(51%) sepia(10%) saturate(6854%) hue-rotate(325deg)
+    brightness(101%) contrast(96%);
 }
 
 .tahu-kah-blog__title {
