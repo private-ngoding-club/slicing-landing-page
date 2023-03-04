@@ -573,8 +573,28 @@ header {
   margin-bottom: 55px;
 }
 
+.tahu-kah img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
 .tahu-kah__title {
   margin-bottom: 66px;
+}
+
+.tahu-kah__blog-item {
+  max-width: 374px;
+}
+
+.tahu-kah-blog__thumbnail {
+  margin-bottom: 20px;
+}
+
+.tahu-kah-blog__title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 /* End of Fanfan */
